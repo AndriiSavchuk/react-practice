@@ -33,7 +33,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack Project',
+            title: 'React Project',
             // minify: {
             //     collapseWhitespace: true
             // },
