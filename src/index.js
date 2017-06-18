@@ -7,6 +7,8 @@ import VideoDetail from './components/videodetail';
 
 const API_KEY = 'AIzaSyDcH-ShTwqK9h5z9Abz8VA9Zkn56oMlSt0';
 
+/* Function-based Component */
+
 // const App = () => {
 //   return ( <div>
 //     <SearchBar />
@@ -14,6 +16,7 @@ const API_KEY = 'AIzaSyDcH-ShTwqK9h5z9Abz8VA9Zkn56oMlSt0';
 //   );
 // }
 
+/* Class-based Component */
 class App extends Component {
   constructor(props) {
     super(props);
