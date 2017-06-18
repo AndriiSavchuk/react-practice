@@ -1,3 +1,5 @@
+const css = require('./style.sass');
+
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import YTSearch from 'youtube-api-search';
@@ -36,7 +38,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="col-md-12">
         <SearchBar />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList
